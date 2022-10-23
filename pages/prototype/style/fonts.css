@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Open-Regular';
+    src: url('../../../assets/fonts/OpenSans-VariableFont_wdth\,wght.ttf');
+}
+@font-face {
+    font-family: 'Tenor-Regular';
+    src: url('../../../assets/fonts/TenorSans-Regular.ttf');
+}
+.fa-regular {
+    font-family: "fontAwesome-regular";
+    font-style: normal;
+}
+.fa-brands {
+    font-family: "fontAwesome-brands";
+    font-style: normal;
+}
+.fa-duotone {
+    font-family: "fontAwesome-duotone";
+    font-style: normal;
+}
+.fa-light, .fa-thin {
+    font-family: "fontAwesome-light";
+    font-style: normal;
+}
+.fa-solid {
+    font-family: "fontAwesome-solid";
+    font-style: normal;
+}
