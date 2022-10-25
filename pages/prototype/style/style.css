@@ -243,22 +243,73 @@ h3 {
 .garanty__block {
     border: 7px solid #A1B29F;
     padding: 5px;
+    display: flex;
+    flex-direction: column;
 }
 .garanty__block-1 {
     border: 1px solid #715B4B;
     padding: 38px 63px;
+    
+}
+.garanty__block-2 {
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
-.garanty__block-1 h2 {
+.garanty__block-2 h2 {
     text-align: center;
     margin-bottom: 40px;
+    margin-top: 54px;
+}
+.garanty_logo {
+    text-align: end;
 }
 .garanty__block-1 p {
-    max-width: 922px;
-    width: 100%;
+    font-size: 24px;
     max-height: 108px;
     height: 100%;
     margin: 0 auto;
+}
+.footer {
+    padding: 84px 0;
+    background: #715B4B;
+}
+.footer_text {
+    font-family: 'Open-Regular';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    color: #F6F6F6;
+}
+.ft__block {
+    display: flex;
+    justify-content: space-between;
+}
+.ft__list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 9px;
+}
+.ft__list-link {
+    text-decoration: none;
+    font-family: 'Open-Regular';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    color: #F6F6F6;
+}
+.btn_3 {
+    border: 1px solid #F6F6F6;
+    background-color: transparent;
+    border-radius: 50%;
+    padding: 15px 15px 12px;
+    cursor: pointer;
+}
+.apps_2 {
+    align-items: center;
+    display: flex;
+    gap: 18px;
 }
