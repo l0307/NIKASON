@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../prototype/index.html">
     <link rel="stylesheet" href="../prototype/style/style.css">
     <link rel="stylesheet" href="../prototype/style/fonts.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
@@ -40,12 +41,12 @@
            
                 <div class="fs__block">
                     <img src="./images/first__section-preparing.png" alt="">
-                    <div class="fs__block--right">
+                    <div class="fs__block--right" data-aos="fade-left">
                         <p>Столярная мастерская NIKASON BRAND</p>
                         <h2>Изготовление и <br> реставрация мебели</h2>
                         <p>Авторская мебель ручной работы, сделанная с душой и трепетом.</p>
                         <button class="btn">Смотреть услуги</button>
-                        <div class="apps">
+                        <div class="apps" data-aos="fade-up-left">
                             <button class="btn_2"><img src="./../../assets/img/f1_img-1.png" alt=""></button>
                             <button class="btn_2"><img src="./../../assets/img/f1_img-2.png" alt=""></button>
                             <button class="btn_2"><img src="./../../assets/img/f1_img-3.png" alt=""></button>
@@ -57,7 +58,7 @@
         <section class="info__section">
             <div class="container">
                 <div class="is__block">
-                    <h2>NIKASON BRAND это</h2>
+                    <h2 data-aos="fade-right">NIKASON BRAND это</h2>
                     <div class="is__block--bottom">
                         <div class="is__block--bottom-box">
                             <p>Производство авторской <br> мебели из массива</p>
@@ -75,7 +76,7 @@
         <section class="production__section">
             <div class="container">
                 <div class="ps__block">
-                    <h2>Более 10 лет мы производим</h2>
+                    <h2 data-aos="fade-right">Более 10 лет мы производим</h2>
                     <div class="ps__block--bottom">
                         <div class="ps__block-box">
                             <img src="./images/pct_1.png" alt="">
@@ -115,11 +116,11 @@
         </section>
         <section class="family__section">
             <div class="container">
-                <h2>NIKASON BRAND это семейная мастеркая</h2>
+                <h2 data-aos="fade-right">NIKASON BRAND это семейная мастеркая</h2>
             </div>
                 <div class="fas__block">
                     <div class="fas__block--bottom">
-                        <img src="./images/center_img.png" alt="">
+                        <img data-aos="fade-right" src="./images/center_img.png" alt="">
                         <div class="fas__block--right">
                             <h3>Саргылана и Никита Колодезниковы-Матчитовы</h3>
                             <p>Саргылана - рестовратор-декоратор, преображает и дарит <br> вторую жизнь старой мебели.</p>
@@ -133,7 +134,7 @@
         <section class="video__section">
             <div class="container">
                 <div class="vs__block">
-                    <h2>Посмотрите видео о нас</h2>
+                    <h2 data-aos="fade-right">Посмотрите видео о нас</h2>
                     
                     <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/MlaGpRXoMPc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
@@ -141,11 +142,11 @@
         </section>
         <section class="actions__sections">
             <div class="container">
-                <h2>Наши услуги</h2>
+                <h2 data-aos="fade-right">Наши услуги</h2>
             </div>
             <div class="order_1">
                 <div class="or__block">
-                    <img src="./images/order_1.png" alt="">
+                    <img data-aos="fade-right" src="./images/order_1.png" alt="">
                     <div class="or__block--right">
                         <h3>Мебель на заказ</h3>
                         <p>Мебель под заказ по индивидуальным размерам это гарантия отличного качества, долговечность, экологичность и эксклюзивность наших изделий.</p>
@@ -156,7 +157,7 @@
             </div>
             <div class="order_2">
                 <div class="or__block">
-                    <img src="./images/order_2.png" alt="">
+                    <img data-aos="fade-right" src="./images/order_2.png" alt="">
                 
                     <div class="or__block--right">
                         <h3>Мастер-классы</h3>
@@ -176,7 +177,7 @@
                             <p>На каждое изделие ставим авторский логотип (клеймо) как знак качества и <br> узнаваемости мастера. Таким образом мастер несёт ответственность за каждое <br> изделие помеченное печатью. Есть гарантия на 12 месяцев. </p>
                         </div>
                         <div class="garanty_logo">
-                            <img src="./../../assets/img/logo_light.png" alt="">
+                            <img data-aos="zoom-in" src="./../../assets/img/logo_light.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -221,4 +222,8 @@
         </div>
     </footer>
 </body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 </html>
