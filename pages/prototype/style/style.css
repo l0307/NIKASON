@@ -6,7 +6,7 @@
 .container {
     max-width: 1440px;
     width: 100%;
-    padding: 0 70px;
+    padding: 0 139px;
     margin: 0 auto;
 }
 .header {
@@ -198,16 +198,11 @@ h3 {
 }
 .video {
     margin-top: 100px;
-    background: #C4C4C4;
     height: 700px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.video::before {
-    content: url(../images/video.svg);
-    cursor: pointer;
 }
 .actions__sections {
     padding: 120px 0;

@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1440px;
+    width: 100%;
+    padding: 0 139px;
+    margin: 0 auto;
+}
+.header {
+    background-color: rgb(254, 248, 242);
+    padding: 15px 60px;
+    border-bottom: 3px solid #715B4B;
+}
+.hn__image {
+    display: flex;
+    justify-self: center;
+}
+.hn__block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hn__list-1 {
+    display: flex;
+    gap: 82px;
+    list-style: none;
+}
+.hn__list-2 {
+    display: flex;
+    gap: 147px;
+    list-style: none;
+}
+.hn__list-link {
+    text-decoration: none;
+    font-family: 'Open-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #323232;
+}
+.first__section {
+    padding: 104px 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 58.25%, rgba(0, 0, 0, 0) 100%), url("https://thumb.tildacdn.com/tild3561-6538-4139-b139-353930366335/-/format/webp/majid-gheidarlou-LuI.png");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.fs__block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 97px;
+}
+.m_title {
+    font-family: 'Tenor-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 150%;
+    color: #F6F6F6;
+}
+.fs__block button {
+    font-family: 'Open-Regular';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #4C6D77;
+    padding: 18px 59px;
+    border: none;
+    cursor: pointer;
+}
+.works__section {
+    padding: 160px 0 80px;
+    background-color: rgb(254, 248, 242)
+}
+.works__section .title {
+    margin-bottom: 100px;
+}
+.title {
+    font-family: 'Tenor-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 150%;
+    color: #57463A;
+}
+.ws__block {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+.ws__block-1 {
+    display: flex;
+    gap: 40px;
+}
+.box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+.box p {
+    font-family: 'Open-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 102.99%;
+    color: #323232;
+    
+}
+.works__section .btn {
+    padding: 18px 44px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 84px;
+}
+.btn {
+    font-family: 'Open-Regular';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #F6F6F6;
+    background: #A1B29F;
+    border: none;
+    cursor: pointer;
+}
+.tech__section {
+    padding: 80px 0px 160px;
+    background: rgb(254, 248, 242);
+}
+.tech__section .title {
+    margin-bottom: 100px;
+}
+.ts__block {
+    display: flex;
+    flex-direction: column;
+    gap: 57px;
+}
+.ts__block-1 {
+    display: flex;
+    gap: 43px;
+    align-items: center;
+}
+.ts__block-1 p {
+    font-family: 'Open-Regular';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 150%;
+    color: #000000;
+}
+.life__section {
+    padding: 182px 0;
+    background: url(../images/centre_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ls__block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.res__section {
+    padding: 160px 0 80px;
+    background: rgb(254, 248, 242);
+}
