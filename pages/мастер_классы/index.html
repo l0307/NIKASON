@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../мастер_классы/index.html">
     <link rel="stylesheet" href="../мастер_классы/style/style.css">
     <link rel="stylesheet" href="../мастер_классы/style/fonts.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="icon" href="../../assets/img/logo.png">
     <title>Мастер классы</title>
 </head>
@@ -40,16 +41,16 @@
         <section class="first__section">
             <div class="container">
                 <div class="fs__block">
-                    <h1 class="m_title">Нам доверяют мебель с историей в 120 лет</h1>
-                    <button>Смотреть мастер-классы</button>
+                    <h1 class="m_title" data-aos="fade-right">Нам доверяют мебель с историей в 120 лет</h1>
+                    <button data-aos="fade-right">Смотреть мастер-классы</button>
                 </div>
             </div>
         </section>
         <section class="works__section">
             <div class="container">
                 
-                    <h2 class="title">Наши работы</h2>
-                    <div class="ws__block">
+                    <h2 class="title" data-aos="fade-right">Наши работы</h2>
+                    <div class="ws__block" data-aos="fade-up">
                         <div class="ws__block-1">
                             <div class="box">
                                 <img src="./images/p_1.png" alt="">
@@ -62,7 +63,7 @@
                         </div>
                         <div class="ws__block-1">
                             <div class="box">
-                                <img src="./images/p_3.png" alt="">
+                                <img style="height:300px ;" src="./images/p_3.png" alt="">
                                 <p>До</p>
                             </div>
                             <div class="box">
@@ -97,8 +98,8 @@
         <section class="tech__section">
             <div class="container">
                 
-                    <h2 class="title">Какие техники изучите на МК</h2>
-                    <div class="ts__block">
+                    <h2 class="title" data-aos="fade-right">Какие техники изучите на МК</h2>
+                    <div class="ts__block" data-aos="fade-up">
                         <div class="ts__block-1">
                             <img src="./images/or_1.png" alt="">
                             <p>Снятие старой краски</p>
@@ -133,15 +134,15 @@
         <section class="life__section">
             <div class="container">
                 <div class="ls__block">
-                    <h2 class="m_title">Подари вторую жизнь старой мебели и сохрани историю вашей семьи</h2>
+                    <h2 class="m_title" data-aos="fade-left">Подари вторую жизнь старой мебели и сохрани историю вашей семьи</h2>
                 </div>
             </div>
         </section>
         <section class="res__section">
             <div class="container">
-                <h2 class="title">Мастер-классы по реставрации мебели</h2>
+                <h2 class="title" data-aos="fade-right">Мастер-классы по реставрации мебели</h2>
                 <div class="rs__main">
-                <div class="rs__block">
+                <div class="rs__block" data-aos="fade-up">
                     
                         
                             <div class="box_1 box">
@@ -191,8 +192,8 @@
         </section>
         <section class="table__section">
             <div class="container">
-                <h2 class="title">Мастер-классы по столярному делу</h2>
-                <div class="tbs__block">
+                <h2 class="title" data-aos="fade-right">Мастер-классы по столярному делу</h2>
+                <div class="tbs__block" data-aos="fade-up">
                     <div class="tbs__block-1">
                         <img src="./images/table-1.png" alt="">
                         <p>Консольный столик</p>
@@ -207,31 +208,73 @@
         <section class="des__section">
             <div class="container">
                 <div class="ds__block">
-                    <div class="ds__block--left">
+                    <div class="ds__block--left" data-aos="fade-down-right">
                         <h2 class="title">Руководство по редизайну <br> деревянной мебели</h2>
                         <p>Здесь мы собрали всю информацию от подбора инстурментов и материалов до сборки мебели и фурнитуры. Чтобы вы самостоятельно могли разобраться с нюансами работы со старой мебелью из дерева. Наше руководство непременно станет вашей настольной книгой по реставрации мебели.</p>
                         <button class="btn">Подробнее</button>
                     </div>
-                    <div class="ds__block--right">
+                    <div class="ds__block--right" data-aos="flip-right">
                         <img class="box_logo" src="../../assets/img/logo.png" alt="">
                         <p class="suptitle">Краткое руководство по <br> редизайну деревянной мебели</p>
                         <h3>Реставрируй с NIKASON</h3>
                         <div class="afbf">
                             <div class="afbf-1">
                                 <img src="./images/p_5.png" alt="">
+                                <p>До</p>
                             </div>
-                            <div class="afbf-2">
+                            <div class="afbf-1">
                                 <img src="./images/p_6.png" alt="">
+                                <p>После</p>
                             </div>
                         </div>
-                        <a href="">
-                            <img src="" alt="">
-                            <p></p>
+                        <a class="insta" href="">
+                            <p>@mebel_ot_nikason</p>
                         </a>
                     </div>
                 </div>
             </div>
         </section>
+        <footer class="footer">
+            <div class="container">
+                <div class="ft__block" data-aos="fade-up">
+                    <p class="footer_text">ИП Колодезников-Матчитов Н.И. <br>
+                        ИНН 143515646663</p>
+                    <ul class="ft__list">
+                        <li>
+                            <a class="ft__list-link" href="#">Мастер-классы</a>
+                        </li>
+                        <li>
+                            <a class="ft__list-link" href="#">Мебель на заказ</a>
+                        </li>
+                    </ul>
+                    <ul class="ft__list">
+                        <li>
+                            <a class="ft__list-link" href="#">Контакты</a>
+                        </li>
+                        <li>
+                            <a class="ft__list-link" href="#">О нас</a>
+                        </li>
+                    </ul>
+                    <ul class="ft__list">
+                        <li>
+                            <a class="ft__list-link" href="#">Политика кофиденциальности</a>
+                        </li>
+                        <li>
+                            <a class="ft__list-link" href="#">Договор оферты</a>
+                        </li>
+                    </ul>
+                    <div class="apps_2">
+                        <button class="btn_3"><img src="./../../assets/img/f_img-1.png" alt=""></button>
+                        <button class="btn_3"><img src="./../../assets/img/f_img-2.png" alt=""></button>
+                        <button class="btn_3"><img src="./../../assets/img/f_img-3.png" alt=""></button>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </main>
 </body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 </html>

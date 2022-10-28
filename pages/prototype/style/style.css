@@ -170,11 +170,13 @@ h2 {
 }
 .ps__block-box p {
     margin-top: 20px;
-    width: 128px;
 }
 .ps__block-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-    padding: 56px 96px;
+    padding: 56px 0;
     background-color: rgb(254, 248, 242);
 }
 .family__section {
@@ -325,3 +327,18 @@ h3 {
     display: flex;
     gap: 18px;
 }
+.ft__list-link::after {
+    display: block;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: rgb(254, 248, 242);
+    content: '';
+    transition: width 0.3s ease-out;
+    
+
+}
+.ft__list-link:hover::after, .hn__list-link:focus::after {
+    width: 100%;
+}
+
