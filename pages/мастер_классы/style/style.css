@@ -43,6 +43,23 @@
     text-align: center;
     color: #323232;
 }
+.hn__list-link::after {
+    display: block;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: #bababa;
+    content: '';
+    transition: width 0.3s ease-out;
+    
+
+}
+.hn__list-link:hover::after, .hn__list-link:focus::after {
+    width: 100%;
+}
+.hn__list-link:hover {
+    color: #bababa;
+}
 .first__section {
     padding: 104px 0;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 58.25%, rgba(0, 0, 0, 0) 100%), url("https://thumb.tildacdn.com/tild3561-6538-4139-b139-353930366335/-/format/webp/majid-gheidarlou-LuI.png");
@@ -97,12 +114,12 @@
 .ws__block {
     display: flex;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 80px;
     justify-content: center;
 }
 .ws__block-1 {
     display: flex;
-    gap: 40px;
+    gap: 80px;
 }
 .box {
     display: flex;
@@ -153,7 +170,7 @@
     gap: 43px;
     align-items: center;
 }
-.ts__block-1 p {
+.ts__block-1 p, .ds__block--left p {
     font-family: 'Open-Regular';
     font-style: normal;
     font-weight: 300;
@@ -175,5 +192,91 @@
 }
 .res__section {
     padding: 160px 0 80px;
+    background: rgb(254, 248, 242);
+}
+.box_1 {
+    display: flex;
+    flex-direction: column;
+}
+.rs__main {
+    display: flex;
+    flex-direction: column;
+    gap: 77px;
+    margin-top: 100px ;
+}
+.rs__block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.box_1 img {
+    max-width: 200px;
+    max-height: 247px;
+    width: 100%;
+    height: 100%;
+}
+.box_2 img {
+    max-width: 213px;
+    max-height: 273px;
+    width: 100%;
+    height: 100%;
+}
+.box_1 {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+.box_2 {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+.box_3 {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+.box_4 {
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+}
+.rs__block p, .tbs__block-1 p {
+    font-family: 'Open-Regular';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    color: #323232;
+}
+
+.box {
+    max-width: 213px;
+    max-height: 300px;
+    width: 100%;
+    height: 100%;
+}
+
+.table__section {
+    padding: 80px 0;
+    background: rgb(254, 248, 242);
+}
+.table__section .title {
+    margin-bottom: 100px;
+}
+.tbs__block {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tbs__block-1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+
+.des__section {
+    padding: 80px 0;
     background: rgb(254, 248, 242);
 }

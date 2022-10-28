@@ -43,6 +43,23 @@
     text-align: center;
     color: #323232;
 }
+.hn__list-link::after {
+    display: block;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: #bababa;
+    content: '';
+    transition: width 0.3s ease-out;
+    
+
+}
+.hn__list-link:hover::after, .hn__list-link:focus::after {
+    width: 100%;
+}
+.hn__list-link:hover {
+    color: #bababa;
+}
 .first__section {
     background:rgb(254, 248, 242) ;
     display: flex;
