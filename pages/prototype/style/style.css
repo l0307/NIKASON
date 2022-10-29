@@ -278,11 +278,11 @@ h3 {
 .garanty_logo {
     text-align: end;
 }
-.garanty__block-1 p {
+.garanty__block-2 p {
     font-size: 24px;
-    max-height: 108px;
     height: 100%;
     margin: 0 auto;
+    width: 1135;
 }
 .footer {
     padding: 84px 0;
@@ -338,7 +338,130 @@ h3 {
     
 
 }
+
 .ft__list-link:hover::after, .hn__list-link:focus::after {
     width: 100%;
+}
+
+
+@media (max-width:1208px) {
+    .fs__block {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap-reverse;
+        border: none;
+    }
+    .fs__block .fsimg {
+        width: 100%;
+        margin-top: 40px;
+    }
+}
+@media (max-width:960px) {
+    .bt {
+        display: none;
+    }
+    .container {
+        padding: 0 30px;
+    }
+    .title {
+        font-size: 32px;
+    }
+    .is__block--bottom {
+        flex-wrap: wrap;
+    }
+    .is__block {
+        justify-content: center;
+    }
+    .fas__block--bottom {
+        background: transparent;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .fas__block--bottom img {
+        width: 100%;
+    }
+    .or__block {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-bottom: 115px;
+    }
+    .or__block img {
+        width: 100%;
+    }
+    .garanty__block-1 {
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .garanty__block-2 h2 {
+        
+        display: none;
+    }
+    .garanty_logo {
+        justify-content: end;
+    }
+    .ft__block {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        gap: 40px;
+    }
+    .ps__block--bottom {
+        grid-template: repeat(4,1fr)/repeat(2,1fr);
+    }
+    .hn__block {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    .hn__list-1, .hn__list-2 {
+        gap: 40px;
+    }
+    .vs__block {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    h2 {
+        font-size: 32px;
+    }
+    .garanty__block-2 {
+        max-height: none;
+    }
+    .garanty__block-1 {
+        padding: 64px 5px;
+    }
+    .garanty__block-2 p {
+        font-size: 16px;
+    }
+    .garanty_logo img {
+        width: 68px;
+        height: 68px;
+        
+    }
+    p {
+        font-size: 16px;
+    }
+    .apps {
+        align-self: flex-start;
+    }
+    .fs__block--right {
+        padding: 80px 0 0 37px;
+    }
+    .production__section, .video__section {
+        padding: 10px 0;
+    }
+    .actions__sections {
+        padding: 80px 0;
+    }
+    .garanty__section {
+        padding: 10px 0 150px;
+    }
+    .ps__block-box {
+        padding: 26px 0;
+    }
 }
 
