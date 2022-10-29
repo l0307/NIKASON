@@ -14,6 +14,12 @@
     padding: 15px 60px;
     border-bottom: 3px solid #715B4B;
 }
+.header__menu {
+    display: none;
+}
+.exit {
+    display: none;
+}
 .hn__image {
     display: flex;
     justify-self: center;
@@ -67,7 +73,7 @@
 }
 .fs__block {
     display: grid;
-    grid-template-columns: 2, 1fr; 
+    grid-template-columns: repeat(2, 1fr); 
 }
 .fs__block--right {
     padding: 198px 0 0 37px;
@@ -411,12 +417,6 @@ h3 {
     .ps__block--bottom {
         grid-template: repeat(4,1fr)/repeat(2,1fr);
     }
-    .hn__block {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 20px;
-    }
     .hn__list-1, .hn__list-2 {
         gap: 40px;
     }
@@ -463,5 +463,74 @@ h3 {
     .ps__block-box {
         padding: 26px 0;
     }
+
+
+    /* BURGER MENU */
+  .header__menu {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    cursor: pointer;
+  }
+
+  .header__menu span {
+    width: 28px;
+    height: 3px;
+    background-color: #fff;
+  }
+
+  .hn__block {
+    display: none;
+  }
+
+  .exit.active {
+    display: block;
+    font-size: 25px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+    top: -3%;
+    right: 0;
+  }
+
+  .header__nav.active {
+    padding: 10px 0;
+  }
+
+  .header {
+    background-color: #000000;
+    border-bottom: none;
+    position: relative;
+  }
+
+  .header__nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .hn__block.active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    height: 508px;
+    gap: 20px;
+    justify-content: center;
+    width: 75vw;
+  }
+
+  .hn__block.active .hn__list-1,
+  .hn__block.active .hn__list-2 {
+    flex-direction: column;
+    order: 1;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .fs__block.active {
+    padding-top: 400px;
+  }
+
+  /* BURGER MENU */
 }
 
